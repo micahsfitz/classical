@@ -44,3 +44,9 @@ span{
   display:block;
   opacity:1;
 }
+
+.coda{
+  height:40px;
+  margin-left: -20px;
+  margin-right:-20px;
+}
