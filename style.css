@@ -12,9 +12,35 @@ p {
 }
 
 sub {
-  font-style: italic;
+  font-style: italic
 }
 
 body{
   background-color: yellowgreen;
+}
+
+span{
+  font-size:40px;
+  line-height: 1.6;
+  color: indigo;
+  font-family: monospace;
+}
+
+.special-img{
+  position: absolute;
+  top:200px;
+  left:300px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 500px;
+}
+
+.special:hover {
+  color:lightpink;
+}
+
+.special:hover .special-img{
+  display:block;
+  opacity:1;
 }
