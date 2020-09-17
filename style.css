@@ -12,7 +12,12 @@ p {
 }
 
 sub {
-  font-style: italic
+  font-style: italic;
+  font-size:20px;
+}
+
+sup{
+  font-size:20px;
 }
 
 body{
