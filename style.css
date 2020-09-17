@@ -31,7 +31,11 @@ span{
   font-family: monospace;
 }
 
-.special-img{
+.special:hover {
+  color:lightpink;
+}
+
+.story-img{
   position: absolute;
   top:200px;
   left:300px;
@@ -41,11 +45,22 @@ span{
   height: 500px;
 }
 
-.special:hover {
-  color:lightpink;
+.special:hover .story-img{
+  display:block;
+  opacity:1;
 }
 
-.special:hover .special-img{
+.play-img{
+  position: absolute;
+  top:100px;
+  left:600px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 500px;
+}
+
+.special:hover .play-img{
   display:block;
   opacity:1;
 }
