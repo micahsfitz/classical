@@ -183,7 +183,7 @@ span{
 
 .interpretation-img{
   position: absolute;
-  top:150px;
+  top:200px;
   left:200px;
   /* display:none; */
   opacity:0;
@@ -244,7 +244,7 @@ span{
 .live-img{
   position: absolute;
   top:100px;
-  left:50px;
+  left:0px;
   /* display:none; */
   opacity:0;
   transition:opacity 1s ease;
@@ -252,6 +252,21 @@ span{
 }
 
 .special:hover .live-img{
+  display:block;
+  opacity:1;
+}
+
+.recorded-img{
+  position: absolute;
+  top:150px;
+  left:200px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 200px;
+}
+
+.special:hover .recorded-img{
   display:block;
   opacity:1;
 }
