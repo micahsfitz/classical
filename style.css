@@ -63,12 +63,12 @@ span{
 
 .play-img{
   position: absolute;
-  top:100px;
+  top:200px;
   left:600px;
   /* display:none; */
   opacity:0;
   transition:opacity 1s ease;
-  height: 500px;
+  height: 200px;
 }
 
 .special:hover .play-img{
@@ -267,6 +267,36 @@ span{
 }
 
 .special:hover .recorded-img{
+  display:block;
+  opacity:1;
+}
+
+.soloist-img{
+  position: absolute;
+  top:150px;
+  left:600px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 200px;
+}
+
+.special:hover .soloist-img{
+  display:block;
+  opacity:1;
+}
+
+.collaboration-img{
+  position: absolute;
+  top:100px;
+  left:900px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 500px;
+}
+
+.special:hover .collaboration-img{
   display:block;
   opacity:1;
 }
