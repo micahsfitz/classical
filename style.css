@@ -394,7 +394,7 @@ span{
 .soundquality-img{
   position: absolute;
   top:500px;
-  left:1100px;
+  left:1000px;
   /* display:none; */
   opacity:0;
   transition:opacity 1s ease;
