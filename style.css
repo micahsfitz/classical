@@ -53,7 +53,7 @@ span{
   /* display:none; */
   opacity:0;
   transition:opacity 1s ease;
-  height: 500px;
+  height: 300px;
 }
 
 .special:hover .story-img{
@@ -93,7 +93,7 @@ span{
 
 .upsetting-img{
   position: absolute;
-  top:500px;
+  top:450px;
   left:20px;
   /* display:none; */
   opacity:0;
@@ -153,7 +153,7 @@ span{
 
 .accessible-img{
   position: absolute;
-  top:350px;
+  top:450px;
   left:600px;
   /* display:none; */
   opacity:0;
@@ -312,6 +312,36 @@ span{
 }
 
 .special:hover .artists-img{
+  display:block;
+  opacity:1;
+}
+
+.presentday-img{
+  position: absolute;
+  top:300px;
+  left:0px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 500px;
+}
+
+.special:hover .presentday-img{
+  display:block;
+  opacity:1;
+}
+
+.agingaudience-img{
+  position: absolute;
+  top:330px;
+  left:500px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 500px;
+}
+
+.special:hover .agingaudience-img{
   display:block;
   opacity:1;
 }
