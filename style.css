@@ -300,3 +300,18 @@ span{
   display:block;
   opacity:1;
 }
+
+.artists-img{
+  position: absolute;
+  top:100px;
+  left:1200px;
+  /* display:none; */
+  opacity:0;
+  transition:opacity 1s ease;
+  height: 500px;
+}
+
+.special:hover .artists-img{
+  display:block;
+  opacity:1;
+}
